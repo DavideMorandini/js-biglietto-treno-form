@@ -23,12 +23,23 @@
 
 // Pseudo-codice:
 // Chiedere all'utente il n. di km che desidera percorrere
-const userName = (prompt("Scrivi il tuo nome"));
-const userSurname = (prompt("Scrivi il tuo cognome"));
-const userAge = Number(prompt("Quanti anni hai?"));
-const userKm = Number(prompt("Quanti km vuoi percorrere?"));
+const userName = document.getElementById("Input_Name_Surname").value;
+const userSurname = document.getElementById("Input_Name_Surname").value;
+const userKm = document.getElementById("Input_Km").value;
+// const userAge = document.getElementById("Input_user_age").value;
 
-console.log(userName, userSurname, userKm, userAge);
+
+document.getElementById("generate").addEventListener("click", function() {
+
+    const resultUser = document.getElementById("Result_Name_and_Surname").value;
+    console.log(resultUser);
+
+    const Km = document.getElementById("Result_Km").value;
+    console.log(Km);
+})
+
+
+
 
 // Prezzo del biglietto al Km percorso
 const ticketPriceFor1Km = 0.21;
@@ -54,6 +65,8 @@ if (userAge < 18) {
 } else {
     console.log("Siamo spiacenti! Non hai diritto a nessuno sconto" + " " + "Il prezzo del biglietto è di €" + " " + ticketStandardPrice);
 }
+
+
 
 
 
