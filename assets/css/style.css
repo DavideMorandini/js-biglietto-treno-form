@@ -90,7 +90,7 @@ button {
     padding: 0.2rem 0.4rem;
 }
 
-.generate {
+#generate {
     border: 1px solid #e78f40;
     border-radius: 0.3125rem;
 }
@@ -105,7 +105,10 @@ button {
 
 .user_detail {
     border: 1px solid blue;
-    
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1.25rem 0rem;
 }
 
 .col_special {
