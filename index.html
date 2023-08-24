@@ -17,23 +17,117 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
     <!-- Style.css -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     
-    
+    <div id="general_container">
+
+        <!-- First Section -->
+        <h1>Calcola il prezzo del tuo biglietto</h1>
+
+        <!-- Container Up -->
+        <div class="container_up">
+
+            <!-- Form -->
+            <div class="form_container">
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <label for="Name_Surname">Nome e Cognome</label>
+
+                        <input id="Name_Surname" type="text" name="Name_Surname" placeholder="Scrivi i tuoi dati" required="required"> 
+                    </div>
+
+                    <div class="col">
+
+                        <label for="Km">Km da percorrere</label>
+
+                        <input id="Km" type="text" name="Km" placeholder="Scrivi i Km" required="required"> 
+                    </div>
+
+                    <div class="col">
+
+                        <label for="user_age">Fascia d'età</label>
+
+                        <select name="age_user" id="user_age" required="required">
+
+                            <option value="Under_18">
+                                Under 18
+                            </option>
+
+                            <option value="Over_65">
+                                Over 65
+                            </option>
+
+                            <option value="Between18_and_65">
+                                Between 18 and 65
+                            </option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="col_stand_alone">
+
+                    <button class="generate">Genera</button>
+
+                    <button class="reset">Annulla</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Section -->
+        <h2>Il tuo biglietto</h2>
+
+        <!-- Containr Down -->
+        <div class="container_up">
+         
+            <div class="container_my_ticket">
+
+                
+                <div class="user_detail">Dettaglio passeggeri</div>
+
+                <div class="row">
+
+                    <div class="col col_special">
+
+                        <h4>Nome passeggero</h4>
+
+                        <div></div>
+                    </div>
+
+                    <div class="col">
+
+                        <h4>Km da percorrere</h4>
+
+                        <div></div>
+                    </div>
+
+                    <div class="col">
+
+                        <h4>Fascia d'età</h4>
+
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+    </div>
+
+ 
 
 
 
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  
 
     <!-- myscript.js -->
-    <script type="text/javascript" src="./assets/JS/myscript.js"></script>
+    <!-- <script type="text/javascript" src="./assets/JS/myscript.js"></script> -->
 </body>
 </html>

@@ -23,10 +23,12 @@
 
 // Pseudo-codice:
 // Chiedere all'utente il n. di km che desidera percorrere
-const userKm = Number(prompt("Quanti km vuoi percorrere?"));
+const userName = (prompt("Scrivi il tuo nome"));
+const userSurname = (prompt("Scrivi il tuo cognome"));
 const userAge = Number(prompt("Quanti anni hai?"));
+const userKm = Number(prompt("Quanti km vuoi percorrere?"));
 
-console.log(userKm, userAge);
+console.log(userName, userSurname, userKm, userAge);
 
 // Prezzo del biglietto al Km percorso
 const ticketPriceFor1Km = 0.21;

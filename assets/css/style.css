@@ -8,3 +8,118 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#general_container {
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    background-color: #b91450;
+}
+
+h1, h2 {
+    border: 1px solid blue;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem 0rem;
+    color: white;
+}
+
+.container_up {
+    border: 1px solid blue;
+    width: 80%;
+    height: 200px; /* auto */
+    margin: 0 auto;
+    border-radius: 1.25rem;
+    background-color: white;
+    box-shadow: 0rem 0rem 0.9375rem 0.125rem black; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container, .container_my_ticket {
+    border: 1px solid green;
+    width: 80%;
+    height: 150px; /* auto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    border: 1px solid red;
+    width: 90%;
+    height: 60px; /* auto */ 
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.col {
+    border: 1px solid blue;
+    width: calc(100% / 3);
+    height: auto;
+    text-align: center;
+}
+
+label {
+    border: 1px solid blue;
+    color: #b91450;
+}
+
+input, select {
+    margin: 0.9375rem 0rem; 
+}
+
+.col_stand_alone {
+    border: 1px solid blue;
+    width: 90%;
+    height: 50px;/* auto */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: #b91450;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    margin: 0rem 1rem;
+    padding: 0.2rem 0.4rem;
+}
+
+.generate {
+    border: 1px solid #e78f40;
+    border-radius: 0.3125rem;
+}
+
+.container_down {
+    border: 1px solid blue;
+    width: 80%;
+    height: 200px; /* auto */
+    margin: 20px auto;
+   
+}
+
+.user_detail {
+    border: 1px solid blue;
+    
+}
+
+.col_special {
+    background-color: #808080;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
