@@ -6,17 +6,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-#general_container {
-    border: 1px solid black;
-    width: 100%;
-    height: 100vh;
     background-color: #b91450;
 }
 
+#general_container {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+}
+
 h1, h2 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-transform: uppercase;
     text-align: center;
     margin: 1rem 0rem;
@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 .container_up {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 80%;
     height: 200px; /* auto */
     margin: 0 auto;
@@ -38,7 +38,7 @@ h1, h2 {
 }
 
 .form_container, .container_my_ticket {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 80%;
     height: 150px; /* auto */
     display: flex;
@@ -48,7 +48,7 @@ h1, h2 {
 }
 
 .row {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     height: 60px; /* auto */ 
     display: flex;
@@ -57,14 +57,14 @@ h1, h2 {
 }
 
 .col {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: calc(100% / 3);
     height: auto;
     text-align: center;
 }
 
 label {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     color: #b91450;
 }
 
@@ -73,7 +73,7 @@ input, select {
 }
 
 .col_stand_alone {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 90%;
     height: 50px;/* auto */
     display: flex;
@@ -96,7 +96,7 @@ button {
 }
 
 .container_down {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 80%;
     height: 200px; /* auto */
     margin: 20px auto;
@@ -104,7 +104,7 @@ button {
 }
 
 .user_detail {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-size: 1.25rem;
     font-weight: bold;
     text-transform: uppercase;
